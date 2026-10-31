@@ -3,92 +3,33 @@
 <head>
   <meta charset="UTF-8" />
   <title>Privacy Policies</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f9fc;
-      margin: 0;
-      padding: 40px;
-      color: #222;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: auto;
-      background: white;
-      padding: 40px;
-      border-radius: 14px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-    }
-
-    h1 {
-      text-align: center;
-      margin-bottom: 30px;
-    }
-
-    .app-card {
-      padding: 18px 20px;
-      margin-bottom: 16px;
-      border: 1px solid #e5e7eb;
-      border-radius: 10px;
-      transition: 0.2s ease;
-    }
-
-    .app-card:hover {
-      background: #f3f6fb;
-    }
-
-    a {
-      text-decoration: none;
-      color: #0b57d0;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    p {
-      margin: 6px 0 0;
-      color: #555;
-    }
-
-    .footer {
-      margin-top: 30px;
-      text-align: center;
-      font-size: 14px;
-      color: #777;
-    }
+    * { box-sizing:border-box; }
+    body { font-family:Arial,sans-serif; background:#f7f9fc; margin:0; padding:40px 20px; color:#222; }
+    .container { max-width:800px; margin:auto; background:white; padding:40px; border-radius:14px; box-shadow:0 8px 24px rgba(0,0,0,.08); }
+    h1 { text-align:center; margin:0 0 30px; }
+    .app-card { padding:18px 20px; margin-bottom:16px; border:1px solid #e5e7eb; border-radius:10px; transition:background .2s ease; }
+    .app-card:hover { background:#f3f6fb; }
+    a { text-decoration:none; color:#0b57d0; font-weight:bold; font-size:18px; display:inline-block; padding:6px 0; overflow-wrap:anywhere; }
+    a:focus-visible { outline:3px solid #0b57d0; outline-offset:4px; }
+    p { margin:6px 0 0; color:#555; line-height:1.6; }
+    .footer { margin-top:30px; text-align:center; font-size:14px; color:#777; }
+    @media(max-width:520px) { body { padding:16px 12px; } .container { padding:26px 18px; } .app-card { padding:16px; } }
   </style>
 </head>
 <body>
-
-<div class="container">
-  <h1>Privacy Policies</h1>
-
-  <div class="app-card">
-    <a href="./AirfryerCards/">AirfryerCards</a>
-    <p>Privacy policy for AirfryerCards mobile application.</p>
-  </div>
-
-  <div class="app-card">
-    <a href="./ShouldIGame/">ShouldIGame</a>
-    <p>Privacy policy for ShouldIGame mobile application.</p>
-  </div>
-
-  <div class="app-card">
-    <a href="./FinanceCalculatorCenter/">FinanceCalculatorCenter</a>
-    <p>Privacy policy for FinanceCalculatorCenter mobile application.</p>
-  </div>
-
-   <div class="app-card">
-    <a href="./PayTrack/">PayTrack</a>
-    <p>Privacy policy for PayTack mobile application.</p>
-  </div>
-
-
-  <div class="footer">
-    Developed by Rüstem Tekdemir
-  </div>
-</div>
-
+  <main class="container">
+    <h1>Privacy Policies</h1>
+    <div class="app-card"><a href="./AirfryerCards/">AirfryerCards</a><p>Privacy policy for AirfryerCards mobile application.</p></div>
+    <div class="app-card"><a href="./ShouldIGame/">ShouldIGame</a><p>Privacy policy for ShouldIGame mobile application.</p></div>
+    <div class="app-card"><a href="./FinanceCalculatorCenter/">FinanceCalculatorCenter</a><p>Privacy policy for FinanceCalculatorCenter mobile application.</p></div>
+    <div class="app-card"><a href="./PayTrack/">PayTrack</a><p>Privacy policy for PayTrack mobile application.</p></div>
+    <div class="app-card">
+      <a href="./KariyerYolumFutbol/">Kariyer Yolum Futbol · Career Journey Football</a>
+      <p>Privacy policy for Kariyer Yolum Futbol mobile application. Available in Turkish and English.</p>
+    </div>
+    <footer class="footer">Developed by Rüstem Tekdemir</footer>
+  </main>
 </body>
 </html>
